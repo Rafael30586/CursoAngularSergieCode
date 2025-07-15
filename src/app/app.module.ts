@@ -4,10 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PadreComponent } from './padre/padre.component';
+import { HijoComponent } from './hijo/hijo.component';
 
 @NgModule({
   declarations: [ //Acá van componentes
-    AppComponent, PadreComponent
+    AppComponent, PadreComponent, HijoComponent
   ],
   imports: [ // Acá van algunos módulos
     BrowserModule,
