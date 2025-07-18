@@ -13,6 +13,7 @@ export class PadreComponent implements OnInit{
   }
 
   nombre?: string
+  fecha?: Date = new Date()
 
   ngOnInit(): void {
     this._servicioFamiliar.setHermanoGrande('Juan')

@@ -8,10 +8,11 @@ import { HijoComponent } from './hijo/hijo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HermanoComponent } from './hermano/hermano.component';
 import { EstiloHermanosDirective } from './estilo-hermanos.directive';
+import { MiPipePersonalizadoPipe } from './mi-pipe-personalizado.pipe';
 
 @NgModule({
   declarations: [ //Acá van componentes
-    AppComponent, PadreComponent, HijoComponent, HermanoComponent, EstiloHermanosDirective
+    AppComponent, PadreComponent, HijoComponent, HermanoComponent, EstiloHermanosDirective, MiPipePersonalizadoPipe
   ],
   imports: [ // Acá van algunos módulos
     BrowserModule,
